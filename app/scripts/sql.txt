@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `todo` (
+        id int(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+        text varchar(255) NOT NULL
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+  // Колонка с уникальным ключем элементов (в нашем случае это будет дата создания)    
+  ALTER TABlE TODO ADD inner_key varchar(100);
